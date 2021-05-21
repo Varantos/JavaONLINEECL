@@ -1,5 +1,4 @@
-package Part_1;
-import Part_1.Global;
+package part_1;
 
 public class Task_1 {
 
@@ -16,6 +15,7 @@ public class Task_1 {
         c=Global.InPutFloatVal(msg[2]);
         System.out.println("a="+a+"; b="+b+"; c="+c);   //вывод исходных данных
         System.out.println("z= "+SolveMath(a, b, c) );  // вывод решения функции SolveMath
+        
     }
 
     private static float SolveMath(float a, float b, float c) {  //рассчет математического выражения
