@@ -23,9 +23,15 @@ public class Task2_4_17 {
 	return val;
 	}//------------------------------------------
 	static int sum_nums(int n) { //сумма цифр числа
-		if (n < 0) n = -n;
-	    if (n < 10) return 1;
-    return n % 10 + sum_nums(n / 10);
+		int sum=0;
+		   if (n < 10) return 1;
+		   while(n != 0){
+		       //Суммирование цифр числа
+		        sum += (n % 10);
+		        n/=10;
+		}
+	
+    return sum;
 	}//------------------------------------------
  	static int minus_nums(int num, int cnt) { // разность число-суммацифр
  		int sum=sum_nums(num);
