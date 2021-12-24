@@ -1,10 +1,10 @@
 package byepam.javaonline.part_2;
-/*  Задача 2.9
+/*  Задача 1.9
  *    В массиве целых чисел с количеством элементов  n.
  *    Найти наиболее часто встречающееся число. 
  *    Если таких чисел несколько, то определить наименьшее из них.
 */
-import global.Global;
+
 public class Task2_1_9 {
 	public static void main(String[] args) {
 
